@@ -1,6 +1,6 @@
 # Proximity Detection Aid
 - Jiayu Tian && Sandeep Alampalli
-- 3/12/2023
+- Date 3/12/2023
 - This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve the quality for daily life. Since, they often experience difficulty detecting fixed obstructions or moving objects in their path and use original detection tool which cannot give them a clear detection feedback in the daily life. Therefore, this project can help them detect obstacle during walking and give them a clear feedback through using ultrasonic sensor and buzzer as alarm. 
 
 ## Modules
