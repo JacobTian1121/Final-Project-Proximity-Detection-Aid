@@ -12,4 +12,4 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 
 |Module|Name|Type|Purpose|
 |------|-------|------|--------|
-|text|text2|text3|text4|
+|alarm|alarmInit()|Public|Initialize the alarm state, siren and distance. |
