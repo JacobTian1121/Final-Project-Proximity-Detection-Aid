@@ -33,7 +33,6 @@ static void EchoFallCallback();
 static void EchoRiseCallback();
 
 void timerCounter();
-void pcSerialComStringWrite( const char* str );
 
 //=====[Implementations of public functions]===================================
 
