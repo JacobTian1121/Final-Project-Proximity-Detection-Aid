@@ -16,4 +16,5 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |alarm|alarmUpdate()|Public|Identify if the distance from obstacle to user is in the detection range within different environment, and activate the buzzer to sound or not.|
 |alarm|alarmStateRead()|Public|Getting the state of alarm.|
 |alarm|alarmDeactivate()|Private|Deactivate the siren.|
-|Distance|
+|Distance|EchoFallCallback()|Private|Interrupting to calculate the EchoPulseTime when the falling edge of signal from ultrasonic sensor is received.|
+|Distance|EchoRiseCallback()|Private|Interrupting to set up the echoTimer is 0 for calculating the EchoPulseTime.|
