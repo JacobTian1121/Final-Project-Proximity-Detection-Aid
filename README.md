@@ -21,4 +21,4 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |Distance|timerCounter()|Public|Increment the echoTimer until the EchoFallCallback() funtion is called.|
 |Distance|DistanceInit()|Public|Initialization callback functions and make sure the timerCounter is counted in every 10us.|
 |Distance|DistanceUpdate()|Public|Send the triggle signal in every 10us.|
-|Distance|
+|Distance|DistanceRead()|Public| Calculating the EchoPulseTime into distance within centimeter unit.|
