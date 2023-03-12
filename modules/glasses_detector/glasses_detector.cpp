@@ -40,6 +40,7 @@ void GlassesDetectorUpdate()
 {
     alarmUpdate();
     DistanceUpdate();
+    ldrSensorUpdate();
     delay(SYSTEM_TIME_INCREMENT_MS);
 }
 
