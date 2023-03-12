@@ -17,7 +17,6 @@
 Ticker stopWatch;
 InterruptIn Echo(PF_13);
 DigitalOut trig(PF_14);
-UnbufferedSerial uartUsb(USBTX, USBRX, 115200);
 //=====[Declaration of external public global variables]=======================
 float Echodistance;
 float EchodistanceArray[distanceMaxSample];
