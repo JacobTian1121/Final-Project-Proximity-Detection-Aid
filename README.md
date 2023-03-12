@@ -17,4 +17,4 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |alarm|alarmStateRead()|Public|Getting the state of alarm.|
 |alarm|alarmDeactivate()|Private|Deactivate the siren.|
 
-### sdss
+#### Alarm variable
