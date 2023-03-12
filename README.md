@@ -68,8 +68,10 @@
 |ldr_sensor|LDR sensor|A2|
 |ldr_sensor|LDR sensor|GND|
 |ldr_sensor|LDR sensor|Vcc 3.3V|
+|ldr_sensor|LDR sensor|10k Ohms resistance|
 |siren|siren|PC_9|
 |siren|siren|Vcc 3.3V|
+
 
 ###### Test Explaination
 - The ultrasonic sensor works correctly and the data has a linear relationship with buzzer to sound.
