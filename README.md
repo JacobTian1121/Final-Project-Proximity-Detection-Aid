@@ -28,8 +28,8 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |ldr_sensor|ldrSensorUpdate()|Public|Making the LDR sensor update.|
 |ldr_sensor|ldrSensorRead()|Public|Getting the value of LDR sensor.|
 |siren|sirenInit()|Public|Initialization the buzzer in actual frequency.|
-|siren|sirenStateRead()|Getting the state of siren.|
-|siren|sirenStateWrite( bool state )| Changing the state of siren.|
-|siren|sirenUpdate( float StrobeTime )| Updating the frequency of buzzer to sound within different proximity.|
-|Glasses_Detector|GlassesDetectorInit()|Initialization alarm, siren and distance module.|
-|Glasses_Detector|GlassesDetectorUpdate()|Updating the alarm, siren and distance module in every 60ms.|
+|siren|sirenStateRead()|Public|Getting the state of siren.|
+|siren|sirenStateWrite( bool state )|Public|Changing the state of siren.|
+|siren|sirenUpdate( float StrobeTime )|Public|Updating the frequency of buzzer to sound within different proximity.|
+|Glasses_Detector|GlassesDetectorInit()|Public|Initialization alarm, siren and distance module.|
+|Glasses_Detector|GlassesDetectorUpdate()|Public|Updating the alarm, siren and distance module in every 60ms.|
