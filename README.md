@@ -24,3 +24,12 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |Distance|DistanceRead()|Public| Calculating the EchoPulseTime into distance within centimeter unit.|
 |Distance|StrobeTimeRead()|Public|Calculating the StrobeTime within rational range for buzzer to sound in different environment time.| 
 |Distance|DistanceReadAVG()|Public|Calculating the distance in average to ensure the reaction will be more smoothly.|
+|ldr_sensor|ldrSensorInit()|Public|Initialization the LDR sensor.|
+|ldr_sensor|ldrSensorUpdate()|Public|Making the LDR sensor update.|
+|ldr_sensor|ldrSensorRead()|Public|Getting the value of LDR sensor.|
+|siren|sirenInit()|Public|Initialization the buzzer in actual frequency.|
+|siren|sirenStateRead()|Getting the state of siren.|
+|siren|sirenStateWrite( bool state )| Changing the state of siren.|
+|siren|sirenUpdate( float StrobeTime )| Updating the frequency of buzzer to sound within different proximity.|
+|Glasses_Detector|GlassesDetectorInit()|Initialization alarm, siren and distance module.|
+|Glasses_Detector|GlassesDetectorUpdate()|Updating the alarm, siren and distance module in every 60ms.|
