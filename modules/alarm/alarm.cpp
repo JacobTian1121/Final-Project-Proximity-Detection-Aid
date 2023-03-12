@@ -40,14 +40,14 @@ void alarmInit()
 void alarmUpdate()
 {
     if(ldrSensorRead() >= 0.1){
-        if (DistanceReadAVG() > 300.0){
+        if ((DistanceReadAVG() > 300.0) || (DistanceReadAVG() < 10)){
         sirenStateWrite(OFF);
     } else {
         sirenStateWrite(ON);
         sirenUpdate( StrobeTimeRead() );
     }
 } else {
-    if(DistanceReadAVG() > 400.0){
+        if ((DistanceReadAVG() > 400.0) || (DistanceReadAVG() < 10)){
          sirenStateWrite(OFF);
     } else{
         sirenStateWrite(ON);
