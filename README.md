@@ -37,6 +37,7 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 #### Defines/Variables/Objects
 |Module|Name|Type|Purpose|
 |------|-------|------|--------|
+|distance|SYSTEM_TIME_INCREMENT_MS|define|The time for system to delay, which means update.|
 |distance|distanceMaxSample|define|Setting up the maxmimum sample for array to calculate is 10.|
 |distance|stopWatch|Ticker|Setting up the ticker.|
 |distance|Echo(PF_13)|InterruptIn|Setting up the input signal for interrupt.|
@@ -46,5 +47,14 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |distance|StrobeTime|float|The time for buzzer to sound.|
 |distance|echoTimer|integer|The value of echo time.|
 |distance|EchoPulseTime|integer|The value of echo pulse time.|
+|distance|distanceSampleIndex|integer|The value of EchodistanceArray to indicate the position.|
+|distance|distanceReadSum|float|The value of 10 groups distance sum.|
+|distance|distanceAverage|float|The value of average distance.|
+|distance|i|integer|The value of array to indicate the current position in increment.|
+|ldr_sensor|ldr(A2)|AnalogIn|The analog signal input pin.|
+|siren|sirenPin(PC_9_ALT0)|PWMOut|The pin of PWN for siren.|
+|siren|sirenState|Boolean variable|The state of siren.|
+|siren|currentStrobeTime|integer|The current strobe time.|
+
 
 
