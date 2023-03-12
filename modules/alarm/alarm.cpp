@@ -11,11 +11,6 @@
 
 //=====[Declaration of private defines]========================================
 
-#define STROBE_TIME_INTRUDER_ALARM          1000
-#define STROBE_TIME_FIRE_ALARM               500
-#define STROBE_TIME_FIRE_AND_INTRUDER_ALARM  100
-
-
 //=====[Declaration of private data types]=====================================
 
 //=====[Declaration and initialization of public global objects]===============
