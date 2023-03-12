@@ -8,9 +8,8 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 - siren : Making the buzzer sound or not within a frequency which is depended on the strobetime.
 - Glasses_Detector : Initialization whole modules and make sure them update in every 60ms.
 
+### Funtions
 
-- bullet point
-
-|column|column2|column3|
-|------|-------|------|
-|text|text2|text3|
+|Module|Name|Type|Purpose|
+|------|-------|------|--------|
+|text|text2|text3|text4|
