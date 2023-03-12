@@ -71,6 +71,15 @@
 |siren|siren|PC_9|
 |siren|siren|Vcc 3.3V|
 
+###### Test Explaination
+- The ultrasonic sensor works correctly and the data has a linear relationship with buzzer to sound.
+- Testing the ultrasonic sensor close to the obstacle less than 10cm or faraway from 4m or 3m. 
+- The buzzer works correctly and the frequency is linear proportional to the distance from ultrasonic sensor.
+- Testing if the buzzer sound within different frequency or not through moving the ultrasonic sensor.
+- Testing if the buzzer will stop sound when the buzzer get so closed less than 10cm or faraway than 4m. 
+- The LDR sensor works perfectly and it can identify the environment to system to work.
+- Testing if the buzzer will suddenly sound into different 
+
 
 
 
