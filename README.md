@@ -33,3 +33,9 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |siren|sirenUpdate( float StrobeTime )|Public|Updating the frequency of buzzer to sound within different proximity.|
 |Glasses_Detector|GlassesDetectorInit()|Public|Initialization alarm, siren and distance module.|
 |Glasses_Detector|GlassesDetectorUpdate()|Public|Updating the alarm, siren and distance module in every 60ms.|
+
+#### Variable and Objects
+|Module|Name|Type|Purpose|
+|------|-------|------|--------|
+
+
