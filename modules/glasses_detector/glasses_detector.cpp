@@ -39,7 +39,6 @@ void GlassesDetectorUpdate()
 {
     alarmUpdate();
     DistanceUpdate();
-    //sirenUpdate(float strobeTime);
     delay(SYSTEM_TIME_INCREMENT_MS);
 }
 
