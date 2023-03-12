@@ -58,7 +58,7 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 
 ##### Hardware
 |Module|Name|Pins|
-|------|-------|------|--------|
+|------|-------|------|
 |distance|Ultrasonic sensor|Echo PF_13|
 |distance|Ultrasonic sensor|Trig PF_14|
 |distance|Ultrasonic sensor|GND|
