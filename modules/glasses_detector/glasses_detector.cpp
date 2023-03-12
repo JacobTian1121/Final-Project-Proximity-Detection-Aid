@@ -33,6 +33,7 @@ void GlassesDetectorInit()
     alarmInit();
     DistanceInit();
     sirenInit();
+    ldrSensorInit();
 }
 
 void GlassesDetectorUpdate()
