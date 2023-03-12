@@ -8,7 +8,7 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 - siren : Making the buzzer sound or not within a frequency which is depended on the strobetime.
 - Glasses_Detector : Initialization whole modules and make sure them update in every 60ms.
 
-### Alarm Funtions
+### Funtions
 
 |Module|Name|Type|Purpose|
 |------|-------|------|--------|
@@ -16,6 +16,4 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |alarm|alarmUpdate()|Public|Identify if the distance from obstacle to user is in the detection range within different environment, and activate the buzzer to sound or not.|
 |alarm|alarmStateRead()|Public|Getting the state of alarm.|
 |alarm|alarmDeactivate()|Private|Deactivate the siren.|
-
-#### Alarm Variable
-|Module|
+|Distance|
