@@ -78,7 +78,7 @@
 - Testing if the buzzer sound within different frequency or not through moving the ultrasonic sensor.
 - Testing if the buzzer will stop sound when the buzzer get so closed less than 10cm or faraway than 4m. 
 - The LDR sensor works perfectly and it can identify the environment to system to work.
-- Testing if the buzzer will suddenly sound into different 
+- Testing if the buzzer will suddenly sound into different environment.
 
 
 
