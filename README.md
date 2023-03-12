@@ -34,8 +34,17 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |Glasses_Detector|GlassesDetectorInit()|Public|Initialization alarm, siren and distance module.|
 |Glasses_Detector|GlassesDetectorUpdate()|Public|Updating the alarm, siren and distance module in every 60ms.|
 
-#### Variable and Objects
+#### Defines/Variables/Objects
 |Module|Name|Type|Purpose|
 |------|-------|------|--------|
+|distance|distanceMaxSample|define|Setting up the maxmimum sample for array to calculate is 10.|
+|distance|stopWatch|Ticker|Setting up the ticker.|
+|distance|Echo(PF_13)|InterruptIn|Setting up the input signal for interrupt.|
+|distance|trig(PF_14)|DigitalOut|Setting up the digital out pin for trigger.|
+|distance|Echodistance|float|The distance detected from ultrasonic sensor in centimeter.|
+|distance|EchodistanceArray[distanceMaxSample]|float|The array for record 10 groups distance to calculate the average distance.|
+|distance|StrobeTime|float|The time for buzzer to sound.|
+|distance|echoTimer|integer|The value of echo time.|
+|distance|EchoPulseTime|integer|The value of echo pulse time.|
 
 
