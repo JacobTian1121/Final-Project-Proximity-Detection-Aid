@@ -22,3 +22,5 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |Distance|DistanceInit()|Public|Initialization callback functions and make sure the timerCounter is counted in every 10us.|
 |Distance|DistanceUpdate()|Public|Send the triggle signal in every 10us.|
 |Distance|DistanceRead()|Public| Calculating the EchoPulseTime into distance within centimeter unit.|
+|Distance|StrobeTimeRead()|Public|Calculating the StrobeTime within rational range for buzzer to sound in different environment time.| 
+|Distance|DistanceReadAVG()|Public|Calculating the distance in average to ensure the reaction will be more smoothly.|
