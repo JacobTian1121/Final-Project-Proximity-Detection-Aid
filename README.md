@@ -56,5 +56,20 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |siren|sirenState|Boolean variable|The state of siren.|
 |siren|currentStrobeTime|integer|The current strobe time.|
 
+##### Hardware
+|Module|Name|Pins|
+|------|-------|------|--------|
+|distance|Ultrasonic sensor|Echo PF_13|
+|distance|Ultrasonic sensor|Trig PF_14|
+|distance|Ultrasonic sensor|GND|
+|distance|Ultrasonic sensor|Vcc 3.3V|
+|ldr_sensor|LDR sensor|A2|
+|ldr_sensor|LDR sensor|GND|
+|ldr_sensor|LDR sensor|Vcc 3.3V|
+|siren|siren|PC_9|
+|siren|siren|Vcc 3.3V|
+
+
+
 
 
