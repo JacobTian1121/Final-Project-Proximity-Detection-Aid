@@ -18,3 +18,7 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |alarm|alarmDeactivate()|Private|Deactivate the siren.|
 |Distance|EchoFallCallback()|Private|Interrupting to calculate the EchoPulseTime when the falling edge of signal from ultrasonic sensor is received.|
 |Distance|EchoRiseCallback()|Private|Interrupting to set up the echoTimer is 0 for calculating the EchoPulseTime.|
+|Distance|timerCounter()|Public|Increment the echoTimer until the EchoFallCallback() funtion is called.|
+|Distance|DistanceInit()|Public|Initialization callback functions and make sure the timerCounter is counted in every 10us.|
+|Distance|DistanceUpdate()|Public|Send the triggle signal in every 10us.|
+|Distance|
