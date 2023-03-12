@@ -13,3 +13,4 @@ This project is designed for VISUALLY IMPAIRED INDIVIDUALS to help them improve 
 |Module|Name|Type|Purpose|
 |------|-------|------|--------|
 |alarm|alarmInit()|Public|Initialize the alarm state, siren and distance. |
+|alarm|alarmUpdate()|Public|Identify if the distance from obstacle to user is in the detection range within different environment, and activate the buzzer to sound or not.|
